@@ -42,9 +42,8 @@ def binSearch(array, key):
 
 key = 3 # Key to be found
 
-index = binSearch(givenArray, key)
 
-if index==-1:
+if (index := binSearch(givenArray, key))==-1:
     print("Key is not found in array")
 else:
     print("Key is found in the array at index", index)
